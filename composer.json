@@ -1,0 +1,34 @@
+{
+    "name": "gooody/flow-arena-api-receive-trigger-module",
+    "type": "library",
+    "license": "MIT",
+    "extra": {
+        "flow-arena-module": true,
+        "module-name": "Api Receive Trigger",
+        "module-provider": "FlowArenaModule\\ApiReceiveTrigger\\ApiReceiveTriggerModule"
+    },
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "FlowArenaModule\\ApiReceiveTrigger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gooody",
+            "email": "gooody29@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:gooodyteam/flow-arena-addon-common.git"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "gooody/flow-arena-addon-common": "dev-master"
+    }
+}
