@@ -7,7 +7,7 @@
         "module-name": "Api Receive Trigger",
         "module-provider": "FlowArenaModule\\ApiReceiveTrigger\\ApiReceiveTriggerModule"
     },
-    "version": "0.1.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "FlowArenaModule\\ApiReceiveTrigger\\": "src/"
